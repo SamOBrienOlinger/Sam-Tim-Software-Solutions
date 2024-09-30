@@ -3285,7 +3285,7 @@ input, select, textarea {
 
 	#intro, #sam-tim {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 2rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3508,13 +3508,19 @@ input, select, textarea {
 	
 }
 
-#ogham-logo img {
-    max-width: 100%;         /* Ensures the image scales within the div */
-    max-height: 100%;        /* Ensures the image scales within the div */
-    display: block;          /* Removes any inline-block spacing */
+/* #ogham-logo img {
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
 	border-radius: 50%;
-}
+} */
 
+#ogham-logo img {
+    width: 75%;
+    height: auto;        /* Maintain the aspect ratio */
+    display: block;      /* Removes any inline-block spacing */
+    border-radius: 50%;
+}
 
 /* Header */
 
@@ -3593,7 +3599,7 @@ input, select, textarea {
 			border-color: #ffffff;
 			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 2.25rem;
+			font-size: 1.5rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1;
