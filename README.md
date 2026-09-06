@@ -14,7 +14,7 @@ A portfolio website presenting software projects and professional background thr
 
 ## Getting started
 
-Requires a browser and a local HTTP server. Python 3 provides one without installing application packages.
+Requires Git, a browser and a local HTTP server. Python 3 provides one without installing application packages.
 
 ```bash
 git clone https://github.com/SamOBrienOlinger/Sam-Tim-Software-Solutions.git
